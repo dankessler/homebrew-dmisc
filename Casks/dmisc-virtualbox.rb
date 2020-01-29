@@ -6,8 +6,7 @@ cask 'dmisc-virtualbox' do
   name 'Oracle VirtualBox'
   homepage 'https://www.virtualbox.org/'
 
-  conflicts_with cask: 'virtualbox-beta'
-  conflicts_with cask: 'virtualbox'
+  conflicts_with cask: 'virtualbox-beta' 'virtualbox'
 
   pkg 'VirtualBox.pkg',
       choices: [
