@@ -5,7 +5,6 @@ class GitAnnexRemoteRclone < Formula
   sha256 "fb9bb77c6dd30dad4966926af87f63be92ef442cfeabcfd02202c657f40439d0"
 
   depends_on "git-annex"
-  depends_on "rclone"
 
   def install
     bin.install "git-annex-remote-rclone"
